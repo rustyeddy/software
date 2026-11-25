@@ -39,27 +39,31 @@ delivering quality software to customers.
 What to build.
 *** TODO The main idea: problem, customer, success criteria
 *** TODO Building out use cases
-*** TODO Non-functional requirements
 *** TODO Scoping the first release
+** TODO Design
+How it will be built.
+*** TODO Non-functional requirements
+*** TODO Security requirements and threat modeling
 *** TODO Architecture and design
+*** TODO Recording decisions
 *** TODO Use cases to tasks
-*** TODO Prioritising and managing the kanban process
 ** TODO Setup
 How the team will work.
 *** TODO Setting up the VCS and branching strategy
+*** TODO Security baseline: secrets, access, dependency policy
 *** TODO CI pipeline from day one
 *** TODO Test strategy: what gets tested at which level
 *** TODO Definition of done and review standards
+*** TODO Prioritising and managing the kanban process
 ** TODO Developing
 The steps each developer, human or AI, goes through on every task.
 *** TODO Picking up a task
-*** TODO Defining tests
 *** TODO Creating a branch
+*** TODO Defining tests
 *** TODO Building tests
 *** TODO The loop: edit -> build -> test -> debug -> edit
 *** TODO Peer review -> pull/merge requests
-*** TODO Merging and CI/CD
-*** TODO Managing technical debt
+*** TODO Merging
 ** TODO Delivering
 *** TODO Automated system and acceptance tests
 *** TODO Documentation: user, operator, developer
@@ -68,11 +72,12 @@ The steps each developer, human or AI, goes through on every task.
 ** TODO Production
 *** TODO Monitoring and observability
 *** TODO Incidents and on-call
-*** TODO Security and dependency maintenance
+*** TODO Patching and vulnerability response
 ** TODO Feedback
 Closing the loop.
 *** TODO Collecting bugs, feature requests, and usage data
 *** TODO Triage and back into the backlog
+*** TODO Managing technical debt
 *** TODO Retrospectives and measuring the team
 ** TODO Conclusion
 *** TODO The full checklist

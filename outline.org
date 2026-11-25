@@ -46,6 +46,8 @@ What this course is all about: discusses first principles of building
 production quality software with a modern human and/or AI team.  This
 course can be used as a blueprint for anybody responsible for
 delivering quality software to customers.
+Detailed working outline: [[file:modules/intro.org][Intro module]].
+*** TODO What software engineering is really about
 *** TODO The delivery loop: idea -> production -> feedback
 *** TODO How to use this course as a checklist
 ** TODO Planning

@@ -1,0 +1,84 @@
+#+title: Software Course Outline
+
+* Overview
+
+This is the first draft of a software course that I plan to sell. It
+is for anyone responsible for a team of developers delivering
+production software to customers and clients: managers (such as a
+small-company CTO), team leads, and senior developers who own
+end-to-end delivery.
+
+The course is a blueprint for starting and running the software
+development process from beginning to end. A manager can hand it to a
+lead, and a lead can use it as a checklist for managing a team of
+developers.
+
+It starts at the idea phase, then works through developing
+requirements, building and delivering the software, and running it in
+production. Feedback from production goes back into the next
+iteration of the loop.
+
+The primary goal is to lay out the fundamental, long-lasting truths of
+building software. Throughout, the course also covers how those truths
+apply to modern teams that use AI/LLMs at every level.
+
+AI is treated as a working part of the development process, not a side
+topic. The course teaches how to configure, manage, and interact with
+AIs as well as humans at each stage, from planning through production.
+
+* Lessons and Modules
+
+** TODO Intro
+What this course is all about: discusses first principles of building
+production quality software with a modern human and/or AI team.  This
+course can be used as a blueprint for anybody responsible for
+delivering quality software to customers.
+*** TODO The delivery loop: idea -> production -> feedback
+*** TODO How to use this course as a checklist
+** TODO Planning
+What to build.
+*** TODO The main idea: problem, customer, success criteria
+*** TODO Building out use cases
+*** TODO Non-functional requirements
+*** TODO Scoping the first release
+*** TODO Architecture and design
+*** TODO Use cases to tasks
+*** TODO Prioritising and managing the kanban process
+** TODO Setup
+How the team will work.
+*** TODO Setting up the VCS and branching strategy
+*** TODO CI pipeline from day one
+*** TODO Test strategy: what gets tested at which level
+*** TODO Definition of done and review standards
+** TODO Developing
+The steps each developer, human or AI, goes through on every task.
+*** TODO Picking up a task
+*** TODO Defining tests
+*** TODO Creating a branch
+*** TODO Building tests
+*** TODO The loop: edit -> build -> test -> debug -> edit
+*** TODO Peer review -> pull/merge requests
+*** TODO Merging and CI/CD
+*** TODO Managing technical debt
+** TODO Delivering
+*** TODO Automated system and acceptance tests
+*** TODO Documentation: user, operator, developer
+*** TODO Versioning and release notes
+*** TODO Deploying: environments, rollout, rollback
+** TODO Production
+*** TODO Monitoring and observability
+*** TODO Incidents and on-call
+*** TODO Security and dependency maintenance
+** TODO Feedback
+Closing the loop.
+*** TODO Collecting bugs, feature requests, and usage data
+*** TODO Triage and back into the backlog
+*** TODO Retrospectives and measuring the team
+** TODO Conclusion
+*** TODO The full checklist
+
+* Email Sequence
+
+* Landing Page
+
+* Promotion

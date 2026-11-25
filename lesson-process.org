@@ -1,0 +1,37 @@
+#+title: Lesson Development Process
+
+* Purpose
+Develop practical lessons incrementally. The living [[file:outline.org][course outline]]
+guides the work; update it when we learn something that improves the
+course. Keep the material focused on enduring software engineering
+principles, with human and AI teams integrated throughout.
+
+* Workflow
+1. Select a lesson from the outline and create or reuse a GitHub issue.
+2. Agree on the audience need, learning outcome, scope and practical
+   takeaway. Choose an example, exercise or reusable asset where useful.
+3. Draft the lesson and any supporting assets in Org format or an
+   appropriate source format. Explain why the principle matters, how
+   to apply it, and how it changes (or does not) with AI contributors.
+4. Review via a pull request for technical accuracy, clarity, practical
+   usefulness, scope and consistency with the course. Verify examples
+   and assets; revise in response to review.
+5. After human approval, merge, update the outline status and capture
+   follow-up work. Incorporate student feedback in later iterations.
+
+* Lightweight lesson template
+- Title and learning outcome
+- Core principle and why it matters
+- Practical workflow or example (human and AI where relevant)
+- Common pitfalls and verification
+- Exercise, checklist item or reusable asset, where appropriate
+- Key takeaway
+
+* Definition of done
+A lesson has a clear outcome, accurate and actionable content, reviewed
+examples, and any promised student assets. It fits the delivery loop
+without implying waterfall gates. The author and reviewer agree it is
+ready for the current release; it can still evolve later.
+
+Do not create extra lessons or mandatory artifacts simply to satisfy
+this template. Keep lessons concise and let the outline evolve.

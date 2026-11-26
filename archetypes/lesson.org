@@ -8,4 +8,8 @@
 
 * Practical example
 
+* Common pitfalls and verification
+
+* Exercise or reusable asset (where appropriate)
+
 * Key takeaway

@@ -46,10 +46,65 @@ What this course is all about: discusses first principles of building
 production quality software with a modern human and/or AI team.  This
 course can be used as a blueprint for anybody responsible for
 delivering quality software to customers.
-Detailed working outline: [[file:modules/intro.org][Intro module]].
+Module page: [[file:content/course/intro/_index.org][Intro module]].
 *** TODO What software engineering is really about
+[[file:content/course/intro/software-engineering/index.org][Lesson source]]
 *** TODO The delivery loop: idea -> production -> feedback
+**** Outcome
+Explain the recurring activities of a software project and how
+individual developer tasks fit within them.
+**** Topics
+- Planning: what problem are we solving?
+- Design: how should we solve it?
+- Setup: how will the team work? Bootstrap initially and evolve as needed.
+- Developing: how do we implement and verify the solution?
+- Delivering: how do we get it into customers' hands?
+- Production: how do we keep it working?
+- Feedback: what have we learned and what should we change?
+- Project delivery loop: idea -> planning -> design -> development ->
+  delivery -> production -> feedback -> next iteration.
+- Developer task loop: understand the task -> implement -> build/test ->
+  review -> revise as necessary -> integrate.
+- Activities overlap and recur; these are not waterfall gates.
+  Requirements, design, testing, security and documentation evolve.
+- Humans and AI agents can participate throughout both loops, with
+  appropriate authority and verification.
+**** Example
+Trace a small customer request through delivery, then show how
+production feedback changes the next iteration. Zoom into one task
+and its review/revision cycle.
+**** Takeaway
+Development is a continuous process of learning, building, verifying,
+delivering and improving.
 *** TODO How to use this course as a checklist
+**** Outcome
+Use the course as a practical project blueprint rather than a rigid
+process prescription.
+**** Topics
+- Starting a new project or assessing an existing one.
+- Tailoring the process to risk, team size and project maturity.
+- Applying the same principles to human, AI and hybrid teams.
+- Selecting a project to work through during the course.
+- Building reusable assets incrementally as lessons are developed.
+- Using the engineering checklist to identify gaps and next actions.
+**** Exercise and proposed student asset
+Create a short project baseline: problem, intended customer or user,
+desired outcome, current state, team composition, and one next action.
+For a new project, mark unknowns rather than inventing requirements.
+Keep this lightweight; the Planning module develops these ideas.
+A reusable one-page baseline worksheet is a candidate asset, not a
+commitment to a particular format.
+**** Takeaway
+The process serves the project, not the other way around.
+*** Module development notes
+- Keep the introduction short; defer detailed practices to later modules.
+- Use a consistent small example across the lessons where practical.
+  Select it during lesson drafting; no technology stack is mandated.
+- Consider a reusable lifecycle diagram and project baseline worksheet.
+- Coordinate the engineering checklist with the independent giveaway
+  task ([[https://github.com/rustyeddy/software/issues/2][issue #2]]); do not make the intro dependent on its publication.
+- Review this outline before drafting lessons using the
+  [[file:lesson-process.org][lesson development process]].
 ** TODO Planning
 What to build.
 *** TODO The main idea: problem, customer, success criteria

@@ -3,4 +3,22 @@
 <h1>{{ .Title }}</h1>
 {{ if .Draft }}<p class="draft">Working draft</p>{{ end }}
 {{ .Content }}
+{{ $current := . }}
+{{ $previous := false }}
+{{ $next := false }}
+{{ $seen := false }}
+{{ with .Parent }}
+  {{ range .RegularPages.ByWeight }}
+    {{ if eq .RelPermalink $current.RelPermalink }}
+      {{ $seen = true }}
+    {{ else if not $seen }}
+      {{ $previous = . }}
+    {{ else if not $next }}
+      {{ $next = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if or $previous $next }}
+<p aria-label="Lesson navigation">{{ with $previous }}<a href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}{{ if and $previous $next }} · {{ end }}{{ with $next }}<a href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}</p>
+{{ end }}
 {{ end }}

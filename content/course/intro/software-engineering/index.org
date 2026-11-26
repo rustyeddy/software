@@ -6,7 +6,7 @@
 * Learning objective
 Understand the responsibilities of delivering production-quality
 software regardless of who writes the code.
-* Topics (working outline)
+* Core principle (working outline)
 - Software exists to solve customer problems and deliver value.
 - Writing code is only one part of software development.
 - Demonstrations versus production: reliability, security, maintainability
@@ -15,9 +15,15 @@ software regardless of who writes the code.
 - What AI changes: delegation, implementation speed and coordination.
 - What AI does not remove: requirements, design, verification and
   accountability. A human or organization remains accountable.
-* Example
+* Practical example
 Contrast a working demonstration with a service that customers depend
 on, including what happens when something fails or requirements change.
+* Common pitfalls and verification
+To develop during lesson drafting.
+
+* Exercise or reusable asset (where appropriate)
+To decide during lesson drafting.
+
 * Key takeaway
 Producing code is not the objective; delivering useful, reliable
 software is.

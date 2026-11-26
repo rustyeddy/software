@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ with .Parent }}<p><a href="{{ .RelPermalink }}">← {{ .Title }}</a></p>{{ end }}
+<h1>{{ .Title }}</h1>
+{{ if .Draft }}<p class="draft">Working draft</p>{{ end }}
+{{ .Content }}
+{{ end }}

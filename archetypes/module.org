@@ -1,0 +1,7 @@
+#+TITLE: {{ replace .Name "-" " " | title }}
+#+WEIGHT: 10
+#+DRAFT: true
+
+* Overview
+
+* Learning outcomes

@@ -1,0 +1,30 @@
+#+TITLE: What software engineering is really about
+#+WEIGHT: 10
+#+DRAFT: true
+#+DESCRIPTION: The responsibilities of delivering production software.
+
+* Learning objective
+Understand the responsibilities of delivering production-quality
+software regardless of who writes the code.
+* Core principle (working outline)
+- Software exists to solve customer problems and deliver value.
+- Writing code is only one part of software development.
+- Demonstrations versus production: reliability, security, maintainability
+  and operation under real conditions.
+- Managing complexity, uncertainty, quality and change.
+- What AI changes: delegation, implementation speed and coordination.
+- What AI does not remove: requirements, design, verification and
+  accountability. A human or organization remains accountable.
+* Practical example
+Contrast a working demonstration with a service that customers depend
+on, including what happens when something fails or requirements change.
+* Common pitfalls and verification
+To develop during lesson drafting.
+
+* Exercise or reusable asset (where appropriate)
+To decide during lesson drafting.
+
+* Key takeaway
+Producing code is not the objective; delivering useful, reliable
+software is.
+

@@ -1,0 +1,24 @@
+name: Hugo build
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Hugo
+        run: |
+          version=0.147.9
+          archive="hugo_${version}_linux-amd64.tar.gz"
+          base="https://github.com/gohugoio/hugo/releases/download/v${version}"
+          curl -fsSLO "$base/$archive"
+          curl -fsSLO "$base/hugo_${version}_checksums.txt"
+          grep -F "  $archive" "hugo_${version}_checksums.txt" | sha256sum --check
+          tar -xzf "$archive" hugo
+          sudo install hugo /usr/local/bin/hugo
+      - run: make check
+      - run: test -s public/course/intro/software-engineering/index.html

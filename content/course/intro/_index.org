@@ -1,0 +1,16 @@
+#+TITLE: Introduction
+#+WEIGHT: 10
+#+DRAFT: true
+
+* Purpose
+Establish the mental model for the course: delivering production
+software with human, AI, or hybrid teams. Introduce the engineering
+principles and iterative loops that later modules put into practice.
+
+
+* Learning outcomes
+By the end of the module, students can:
+- Distinguish producing code from delivering useful, reliable software.
+- Explain what AI changes and what remains fundamental to engineering.
+- Describe the project delivery loop and the developer task loop.
+- Apply the course blueprint proportionately to a new or existing project.

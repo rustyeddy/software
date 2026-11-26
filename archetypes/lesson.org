@@ -1,0 +1,15 @@
+#+TITLE: {{ replace .Name "-" " " | title }}
+#+WEIGHT: 10
+#+DRAFT: true
+
+* Learning objective
+
+* Core principle
+
+* Practical example
+
+* Common pitfalls and verification
+
+* Exercise or reusable asset (where appropriate)
+
+* Key takeaway

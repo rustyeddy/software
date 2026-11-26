@@ -1,0 +1,6 @@
+#+TITLE: Software Engineering Course
+#+WEIGHT: 10
+#+DRAFT: true
+
+A practical blueprint for leading software projects from idea through
+production and feedback. The course is under development.

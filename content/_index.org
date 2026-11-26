@@ -1,0 +1,3 @@
+#+TITLE: Practical Engineering Notes
+
+A course on delivering production software with human and AI teams.

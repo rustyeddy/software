@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+{{ with .Description | default .Summary }}<meta name="description" content="{{ . | plainify }}">{{ end }}
+<link rel="stylesheet" href="{{ "css/course.css" | relURL }}">
+</head>
+<body>
+<header><a class="brand" href="{{ site.Home.RelPermalink }}">Practical Engineering Notes</a><a href="https://rustyeddy.com/">rustyeddy.com</a></header>
+<div class="shell">
+<nav aria-label="Course navigation">
+{{ with site.GetPage "/course" }}
+<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ range .Sections.ByWeight }}
+<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+<ul>{{ range .RegularPages.ByWeight }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+{{ end }}
+{{ end }}
+</nav>
+<main id="main">{{ block "main" . }}{{ end }}</main>
+</div>
+</body>
+</html>
